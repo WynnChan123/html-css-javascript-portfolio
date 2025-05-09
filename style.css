@@ -30,7 +30,6 @@ a,
 nav, 
 .nav-links {
   display: flex;
-  z-index: 10;
 }
 
 nav{
@@ -103,6 +102,7 @@ a:hover{
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 10;
 }
 
 .menu-links a {
