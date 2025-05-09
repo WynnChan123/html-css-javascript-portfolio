@@ -7,6 +7,14 @@
   .about-containers{
     flex-wrap: wrap;
   }
+
+  .text-container{
+    font-size: small;
+  }
+
+  .arrow{
+    margin-top: 100px;
+  }
   
 }
 
@@ -41,10 +49,19 @@
     margin: 0 5%;
   }
 
-  .section__pic-container{
+  .section__pic-container1{
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    justify-content: center;
+  }
+
+  .section__pic-container2{
+    width: auto;
+    height: 275px;
+    margin: 0 auto 2rem;
+    justify-content: center;
+    display: flex;
   }
 
   .about-containers{
@@ -97,7 +114,13 @@
     text-align: center;
   }
 
-  .section__pic-container{
+  .section__pic-container1{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .section__pic-container2{
     width: auto;
     height: 46vw;
     justify-content: center;

@@ -150,6 +150,8 @@ section{
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  padding-bottom: 5rem;
+  position: relative;
 }
 
 .section-container{
@@ -182,6 +184,7 @@ section{
 
 .section__text_p1{
   text-align: center;
+  padding-top: 100px;
 }
 .section__text_p2{
   font-size: 1.75rem;
@@ -279,6 +282,8 @@ section{
   position: absolute;
   right: 5rem;
   bottom: 2.5rem;
+  cursor: pointer;
+  z-index: 10;
 }
 
 
@@ -295,12 +300,21 @@ section{
 .section-container{
   gap:4rem;
   height: 80%;
+  position: relative;
+  z-index: 1;
 }
 
-.section__pic-container{
+.section__pic-container1{
   display: flex;
   height: 400px;
   width: 400px;
+  margin: auto 0;
+}
+
+.section__pic-container2{
+  display: flex;
+  height: 400px;
+  min-width: fit-content;
   margin: auto 0;
 }
 
@@ -321,6 +335,7 @@ section{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 1;
 }
 
 .article-container{
